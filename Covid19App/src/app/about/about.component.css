@@ -1,0 +1,18 @@
+div{
+  margin: 10px;
+  height: auto;
+}
+
+  p {
+    margin-top: 0px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }

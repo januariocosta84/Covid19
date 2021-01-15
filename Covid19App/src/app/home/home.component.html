@@ -1,0 +1,39 @@
+<div class="container">
+    <div style="font-size:13px; color:#999; text-align:center">Data atualizado: {{select_data.Date| date:"dd/MM/yyyy"}}</div>
+    <div style="text-align:center;width:100%">
+        <h1>
+            <div style="display:inline">
+                <img src="assets/images/tn_tt-flag.gif" width="60" border="1 px solid #aaa">
+            </div>
+            &nbsp;Timor-Leste
+        </h1>
+    </div>
+
+
+    <div id="maincounter-wrap" style="display:inline">
+        <h1>Numeru Komulativu Kaju Konfirmadu:</h1>
+        <div class="maincounter-number">
+            <span style="color:#aaa">{{select_data.Confirmed}}</span>
+        </div>
+    </div>
+    <div id="maincounter-wrap" style="margin-top:15px;">
+            <h1>Kaju Ativu:</h1>
+            <div class="maincounter-number" style="color:#8ACA2B ">
+                <span>{{select_data.Active}}</span>
+            </div>
+        </div>
+    
+    <div id="maincounter-wrap" style="margin-top:15px;">
+        <h1>Rekopera:</h1>
+        <div class="maincounter-number" style="color:#8ACA2B ">
+            <span>{{select_data.Recovered}}</span>
+        </div>
+    </div>
+
+    <div id="maincounter-wrap" style="margin-top:15px">
+            <h1>Mate:</h1>
+            <div class="maincounter-number">
+                <span>{{select_data.Deaths}}</span>
+            </div>
+        </div>
+</div>
